@@ -1,0 +1,35 @@
+
+
+body {
+  background-color: burlywood;
+}
+
+p, .main-recipe {
+  text-align: center;
+  font-family: monospace;
+}
+a:hover {
+  background-color: pink;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+/* when styling the pseudo class such as links, the order matters or the styling won't be applied */
+a:active {
+  color: red;
+}
+h1 {
+  padding-top: 45px;
+}
+.bento {
+  display: block; 
+  margin: 0 auto;
+}
+.recipes-list {
+  background-color: olive;
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  padding-top:100px;
+}
+
